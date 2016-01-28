@@ -1,0 +1,57 @@
+html {
+	font-family: sans-serif;
+	overflow-x: hidden;
+	width: 100%; 
+	height: 100%;
+}
+
+header {
+	position: absolute;
+	background: #E91E63;
+	top: 0;
+	right: 0;
+	height: 10%;
+	width: 100%;
+}
+
+header .pinky-finger-icon {
+	position: relative;
+	width: 6%;
+	height: 88%;
+	margin: 0.4% 0.4% 0.1% 0.4%;
+}
+
+
+header h3  {
+	position: relative;
+	bottom: 65%;
+	left: 7%;
+	margin: 0% 0.2% 0% 0.2%;
+	color: white;
+	text-transform: uppercase;
+	font-size: 1.5em;
+}
+
+footer {
+	background: #E91E63;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	height: 3.5%;
+	width: 100%;
+}
+
+footer p {
+	position: relative;
+	margin: 0.4% 0 0.2% 0.4%;
+	color: #FFFFFF;
+}
+
+footer ul {
+	position: relative;
+	bottom: 120%; 
+	list-style: none;
+	float:right;
+	padding: 0% 0.4% 0% 0.4%;
+	color: #FFFFFF;
+}
