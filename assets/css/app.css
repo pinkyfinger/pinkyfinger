@@ -1,0 +1,79 @@
+html {
+	font-family: sans-serif;
+	overflow-x: hidden;
+	width: 100%;
+	height: 100%;
+}
+
+.pinky-finger-header {
+	position: absolute;
+	background: #E42565;
+	top: 0;
+	right: 0;
+	width: 100%;
+}
+
+.pinky-finger-header .pinky-finger-icon {
+	position: relative;
+	width: 3em;
+	height: 4em;
+	margin: 0.0% 0% 0.1% 0.4%;
+}
+
+
+.pinky-finger-header h3  {
+	position: relative;
+	bottom: 2em;
+	left: 2.7em;
+	margin: 0% 0.2% 0% 0.2%;
+	color: white;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.pinky-finger-header h5 {
+	position: relative;
+	bottom: 4.4em;
+	left: 5.1em;
+	margin: 0% 0.2% 0% 0.2%;
+	color: white;
+	font-size: 0.8em;
+}
+
+.pinky-finger-header .pinky-finger-screenshot {
+	position: relative;
+	left: 16%;
+	height: 34em;
+	margin: 2% 0% 1% 0%;
+}
+
+.pinky-finger-header .pinky-finger-google-play-badge {
+	position: relative;
+	left: 14%;
+	width: 16em;
+}
+
+footer {
+	background: #E91E63;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	height: 3.5%;.callout
+	width: 100%;
+}
+
+footer p {
+	position: relative;
+	margin: 0.4% 0 0.2% 0.4%;
+	color: #FFFFFF;
+}
+
+footer ul {
+	position: relative;
+	bottom: 120%;
+	list-style: none;
+	float:right;
+	padding: 0% 0.4% 0% 0.4%;
+	color: #FFFFFF;
+}
