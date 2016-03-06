@@ -6,7 +6,7 @@ html {
 }
 
 .pinky-finger-header {
-	position: absolute;
+	position: static;
 	background: #E42565;
 	top: 0;
 	right: 0;
@@ -17,9 +17,8 @@ html {
 	position: relative;
 	width: 3em;
 	height: 4em;
-	margin: 0.0% 0% 0.1% 0.4%;
+	margin: 1.0% 0% 0.1% 0.4%;
 }
-
 
 .pinky-finger-header h3  {
 	position: relative;
@@ -43,15 +42,24 @@ html {
 
 .pinky-finger-header .pinky-finger-screenshot {
 	position: relative;
-	left: 16%;
 	height: 34em;
+	left: 18em;
 	margin: 2% 0% 1% 0%;
 }
 
 .pinky-finger-header .pinky-finger-google-play-badge {
 	position: relative;
-	left: 14%;
-	width: 16em;
+	height: 5em;
+	left: 17em;
+}
+
+.pinky-finger-features {
+	position: static;
+	background-color: #FFFFFF;
+}
+
+.pinky-finger-how-tos {
+	position: static;
 }
 
 footer {
