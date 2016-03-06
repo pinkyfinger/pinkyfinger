@@ -58,8 +58,26 @@ html {
 	background-color: #FFFFFF;
 }
 
+.pinky-finger-features .features-list {
+	list-style: none;
+}
+
 .pinky-finger-how-tos {
 	position: static;
+}
+
+.pinky-finger-how-tos .how-tos-list {
+		position: relative;
+		list-style: none;
+}
+
+.pinky-finger-how-tos .how-tos-list li {
+		display: inline;
+		margin: 0% 1% 0% 1%;
+}
+
+.pinky-finger-how-tos .how-tos-list li img {
+		width: 12em;
 }
 
 .pinky-finger-footer {
