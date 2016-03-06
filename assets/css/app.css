@@ -62,26 +62,17 @@ html {
 	position: static;
 }
 
-footer {
+.pinky-finger-footer {
 	background: #E91E63;
-	position: absolute;
+	position: static;
 	bottom: 0;
 	right: 0;
 	height: 3.5%;.callout
 	width: 100%;
 }
 
-footer p {
+.pinky-finger-footer .footer-content {
 	position: relative;
 	margin: 0.4% 0 0.2% 0.4%;
-	color: #FFFFFF;
-}
-
-footer ul {
-	position: relative;
-	bottom: 120%;
-	list-style: none;
-	float:right;
-	padding: 0% 0.4% 0% 0.4%;
 	color: #FFFFFF;
 }
