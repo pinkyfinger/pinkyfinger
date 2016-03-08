@@ -5,6 +5,10 @@ html {
 	height: 100%;
 }
 
+h2 {
+	font-weight: bold;
+}
+
 .pinky-finger-header {
 	position: static;
 	background: #E42565;
@@ -68,11 +72,11 @@ html {
 
 .pinky-finger-how-tos .how-tos-list {
 		position: relative;
-		list-style: none;
+		display: block;
 }
 
-.pinky-finger-how-tos .how-tos-list li {
-		display: inline;
+.pinky-finger-how-tos li{
+		display: inline-block;	
 		margin: 0% 1% 0% 1%;
 }
 
@@ -80,17 +84,21 @@ html {
 		width: 12em;
 }
 
+.contact-us {
+	display: block;
+	position: static;
+}
+
 .pinky-finger-footer {
 	background: #E91E63;
 	position: static;
+	display: block;
 	bottom: 0;
-	right: 0;
-	height: 3.5%;.callout
+	height: 3.5%;
 	width: 100%;
 }
 
 .pinky-finger-footer .footer-content {
-	position: relative;
 	margin: 0.4% 0 0.2% 0.4%;
 	color: #FFFFFF;
 }
